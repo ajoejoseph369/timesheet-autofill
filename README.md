@@ -22,11 +22,20 @@ Timesheet Automation Script
    npm install typescript@latest ts-node@latest
    ```
 
-3. Run the following command to execute the script
+3. Open the wdio.conf.js file:
+   
+   3.1 Search for 'global.username' and replace the <your_email> tag with your email
+
+   3.2 Replace <your_password> with your password 
+
+   3.3 Replace <your_team> with your team name in the format given.
+
+
+5. Run the following command to execute the script
    ```bash
-   npm run wdio -- --username="<your_username>" --password="<your_password>" --activity="GEN - Internal Training" --date="26-06-2024 10:00:00" --team="AGT - Party Wolves"
+   npm run wdio -- --activity="GEN - Internal Training" --date="26-06-2024 10:00:00"
 
-#NOTE: Replace <your_username> and <your_password> with your own credentials.
+#NOTE: Replace activity type and date accordingly.
 
-#NOTE: Replace the date and team names accordingly. The format should be the same.
+#NOTE: The format should be the same.
 
