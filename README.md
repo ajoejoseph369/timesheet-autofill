@@ -30,4 +30,3 @@ Timesheet Automation Script
 
 #NOTE: Replace the date and team names accordingly. The format should be the same.
 
-4. If the test fails, re-run the script.
