@@ -156,11 +156,11 @@ exports.config = {
     },
 
     before: function(capabilities, specs){
-        global.username = argv.username;
-        global.password = argv.password;
+        global.username = "<your_email>"
+        global.password = "<your_password>";
         global.activity = argv.activity;
         global.date = argv.date;
-        global.team = argv.team;
+        global.team = "<your_team>"; //E.g: AGT - Party Wolves
     }
     //
     // =====
