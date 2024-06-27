@@ -7,9 +7,20 @@ Timesheet Automation Script
    
 2. Install necessary dependencies by running the following commands in your IDE.
    ```bash
+   sudo apt install -y nodejs
+   ```
+   
+   ```bash
    npm install
+   ```
+   
+   ```bash   
    npm install --save-dev @wdio/cli @wdio/local-runner @wdio/cucumber-framework @wdio/spec-reporter @wdio/sync webdriverio chromedriver
+   ```
+   
+   ```bash
    npm install typescript@latest ts-node@latest
+   ```
 
 3. Run the following command to execute the script
    ```bash
